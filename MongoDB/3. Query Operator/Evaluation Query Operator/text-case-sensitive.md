@@ -11,4 +11,4 @@ db.articles.find( { $text: { $search: "Coffee", $caseSensitive: true } } )
 
 The search matches just the document:
 
-{ "\_id" : 2, "subject" : "Coffee Shopping", "author" : "efg", "views" : 5 }
+{ "_id" : 2, "subject" : "Coffee Shopping", "author" : "efg", "views" : 5 }
