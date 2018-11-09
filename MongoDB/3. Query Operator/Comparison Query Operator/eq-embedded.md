@@ -8,13 +8,20 @@ db.men.find( { "item.name": "ab" } )
 
 Both queries match the following document:
 
-{ _id: 1, item: { name: "ab", code: "123" }, qty: 15, tags: [ "A", "B", "C" ] }
+{ \_id: 1, item: { name: "ab", code: "123" }, qty: 15, tags: [ "A", "B", "C" ] }
 
+/_ Example Script :
+{ \_id: 1, item: { name: "ab", code: "123" }, qty: 15, tags: ["A", "B", "C"] }
+{ \_id: 2, item: { name: "cd", code: "123" }, qty: 20, tags: ["B"] }
+{ \_id: 3, item: { name: "ij", code: "456" }, qty: 25, tags: ["A", "B"] }
+{ \_id: 4, item: { name: "xy", code: "456" }, qty: 30, tags: ["B", "A"] }
+{ \_id: 5, item: { name: "mn", code: "000" }, qty: 20, tags: [["A", "B"], "C"] } _/
 
+This code has been Written By Gun Gun Febrianza
+Need Help? Advice? or Ask Question hit me at :
+gungunfebrianza@gmail.com
 
-/* Example Script :
-{ _id: 1, item: { name: "ab", code: "123" }, qty: 15, tags: ["A", "B", "C"] }
-{ _id: 2, item: { name: "cd", code: "123" }, qty: 20, tags: ["B"] }
-{ _id: 3, item: { name: "ij", code: "456" }, qty: 25, tags: ["A", "B"] }
-{ _id: 4, item: { name: "xy", code: "456" }, qty: 30, tags: ["B", "A"] }
-{ _id: 5, item: { name: "mn", code: "000" }, qty: 20, tags: [["A", "B"], "C"] } */
+Dont Hesitate to connect with me on social media:
+Facebook : www.facebook.com/papabitcoin
+Twitter : @daddybitcoin
+Instagram : mas.ggun
