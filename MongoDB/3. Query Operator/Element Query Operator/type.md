@@ -11,5 +11,12 @@ db.addressBook.insertMany(
    ]
 )
 
+The following queries return all documents where zipCode is the BSON type string:
+
 db.addressBook.find( { "zipCode" : { $type : 2 } } ); //(number 2 mean string)
 db.addressBook.find( { "zipCode" : { $type : "string" } } );
+
+These queries return:
+
+{ "_id" : 1, "address" : "2030 Martian Way", "zipCode" : "90698345" }
+
